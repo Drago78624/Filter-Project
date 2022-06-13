@@ -1,0 +1,26 @@
+{
+  "name": "filter-project",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drago78624/Filter-Project.git"
+  },
+  "keywords": [],
+  "author": "Maaz Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drago78624/Filter-Project/issues"
+  },
+  "homepage": "https://github.com/Drago78624/Filter-Project#readme",
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2"
+  }
+}
