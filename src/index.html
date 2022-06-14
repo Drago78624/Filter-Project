@@ -9,42 +9,153 @@
   </head>
   <body class="bg-green-200">
     <div class="wrapper">
-        <div class="container mx-auto">
-          <h1 class="text-4xl font-semibold text-center my-5">Filter Project</h1>
+      <div class="container mx-auto">
+        <h1 class="text-4xl font-semibold text-center my-5">Filter Project</h1>
         <div class="btn-container text-center">
-          <button class="allBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors">All</button>
-          <button class="natureBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors">Nature</button>
-          <button class="spaceBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors">Space</button>
-          <button class="desertsBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors">Deserts</button>
+          <button
+            class="allBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors"
+          >
+            All
+          </button>
+          <button
+            class="natureBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors"
+          >
+            Nature
+          </button>
+          <button
+            class="spaceBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors"
+          >
+            Space
+          </button>
+          <button
+            class="desertsBtn my-2 text-xl py-2 px-6 border-2 border-green-900 rounded-md font-semibold bg-green-600 text-white hover:bg-green-800 transition-colors"
+          >
+            Deserts
+          </button>
         </div>
-        <div class="input-container w-full p-2 my-5 flex justify-center items-center">
-            <input type="text" class="border-2 border-green-900 outline-none text-xl py-3 px-5">
-            <div class="icon p-4  bg-green-600 text-white cursor-pointer hover:bg-green-800">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            </div>
+        <div
+          class="input-container w-full p-2 my-5 flex justify-center items-center"
+        >
+          <input
+            type="text"
+            class="border-2 border-green-900 outline-none text-xl py-3 px-5"
+          />
+          <div
+            class="icon p-4 bg-green-600 text-white cursor-pointer hover:bg-green-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-search"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
         </div>
-        <div class="images-container my-5 flex flex-col items-center md:justify-center md:flex-row w-full flex-wrap">
-            <!-- NATURE -->
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-1.avif" alt="">
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-2.avif" alt="">
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-3.avif" alt="">
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-4.avif" alt="">
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-5.avif" alt="">
-            <img class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/nature-6.avif" alt="">
-            <!-- SPACE -->
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-1.avif" alt="">
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-2.avif" alt="">
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-3.avif" alt="">
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-4.avif" alt="">
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-5.avif" alt="">
-            <img class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/space-6.avif" alt="">
-            <!-- DESERTS -->
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-1.avif" alt="">
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-2.avif" alt="">
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-3.avif" alt="">
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-4.avif" alt="">
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-5.avif" alt="">
-            <img class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%] " src="./images/deserts-6.avif" alt="">
+        <div
+          class="images-container my-5 flex flex-col items-center md:justify-center md:flex-row w-full flex-wrap"
+        >
+          <!-- NATURE -->
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-1.avif"
+            alt=""
+          />
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-2.avif"
+            alt=""
+          />
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-3.avif"
+            alt=""
+          />
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-4.avif"
+            alt=""
+          />
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-5.avif"
+            alt=""
+          />
+          <img
+            class="nature rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/nature-6.avif"
+            alt=""
+          />
+          <!-- SPACE -->
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-1.avif"
+            alt=""
+          />
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-2.avif"
+            alt=""
+          />
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-3.avif"
+            alt=""
+          />
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-4.avif"
+            alt=""
+          />
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-5.avif"
+            alt=""
+          />
+          <img
+            class="space rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/space-6.avif"
+            alt=""
+          />
+          <!-- DESERTS -->
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-1.avif"
+            alt=""
+          />
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-2.avif"
+            alt=""
+          />
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-3.avif"
+            alt=""
+          />
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-4.avif"
+            alt=""
+          />
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-5.avif"
+            alt=""
+          />
+          <img
+            class="deserts rounded-md max-w-xs w-full m-5 flex-[1_0_100%] md:flex-[1_0_50%]"
+            src="./images/deserts-6.avif"
+            alt=""
+          />
         </div>
       </div>
     </div>

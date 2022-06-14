@@ -30,7 +30,9 @@ btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     btns.forEach((btn) => {
       btn.classList.remove("bg-green-800");
+      btn.classList.add("bg-green-600");
     });
+    btn.classList.remove("bg-green-600");
     btn.classList.add("bg-green-800");
     if (e.target.classList.contains("allBtn")) {
       allImgs.forEach((img) => {
